@@ -17,11 +17,11 @@
         <nav class="navbar">
             <div class="nav__logo">
                 <i class="fab fa-accusoft"></i>
-                <a href="../index.html">PLAN B</a>
+                <a href="../index.html">Plan B</a>
             </div>
             <ul class="nav__menu">
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="../gallery/gallery.html">GALLERY</a></li>
+                <!-- <li><a href="../gallery/gallery.html">GALLERY</a></li> -->
                 <li><a href="recruiting.html">RECRUITING</a></li>
                 <li><a href="../crew/crew.html">CREW</a></li>
             </ul>
@@ -31,12 +31,87 @@
         </nav>
     </header>
     <section class="main__1">
-        <span>I'm sorry.😆😆<br>I'll finish it quickly.</span>
+        <section class="btn">
+            <section class="band">
+                <div id="band__member__btn">밴드 회원</div>
+                <section class="band__detail">
+                    <div id="band__member__feature__btn" onclick="change__page(0)">특징</div>
+                    <div id="band__member__duty__btn" onclick="change__page(1)">의무</div>
+                    <div id="band__member__right__btn" onclick="change__page(2)">권리</div>
+                </section>
+            </section>
+            <section class="general">
+                <div id="general__member__btn">일반 회원</div>
+                <section class="general__detail">
+                    <div id="general__member__feature__btn" onclick="change__page(3)">특징</div>
+                    <div id="general__member__duty__btn" onclick="change__page(4)">의무</div>
+                    <div id="general__member__right__btn" onclick="change__page(5)">권리</div>
+                </section>
+            </section>
+        </section>
+        <section class="content">
+            <div id="band__feature">
+                <h2>Plan B의 얼굴마담</h2>
+                <p>2020년 12월 21일, 계속되는 코로나에 지친 20학번들이 모여 어쿠스틱 밴드 Plan B를 결성했습니다. 다른 밴드 동아리들과의 상생과 활동의 자율성을 확보하기 위해 뮤직 크루로 탈바꿈한 Plan B는 밴드라는 정체성을 잃어버리게 되었습니다. 그 대안으로 나온 것이 바로 Plan B Band입니다. 여러분은 Plan B의 대표성을 띠며 연습실 사용 우선권 등의 여러 권리를 가지게 됩니다.</p>
+                <h2>정해진 장르가 없는 밴드</h2>
+                <p>Plan B Band는 장르를 정해놓고 활동하지 않습니다. 세상에는 록, 메탈, 포크, 블루스, 재즈같이 장르로 구분할 수 있는 노래도 있지만, 대중가요, 인디음악, 발라드와 같이 사실상 구분이 불가능한 노래도 많습니다. 전통적인 장르로 음악을 분류하는 것은 더이상 무의미합니다.</p>
+                <h2>기수별로 특색있는 밴드</h2>
+                <p>장르를 정해놓지 않는다고 하여 주로 활동하는 장르가 없는 것은 아닙니다. 처음에는 서로가 선호하는 장르부터 시작하고 합을 맞추어 가면서 구성원 서로를 잘 알아가게 합니다. 시간이 흐르면 흐를수록 자연스럽게 밴드의 주역 장르와 특색이 갖추어지게 됩니다. Plan B는 여러분이 어떤 길을 걷든 전혀 관여하지 않습니다. 이후에 기수별로 팀 이름을 따로 정하여 활동할 수 있습니다.</p>
+            </div>
+            <div id="band__duty">
+                <h2>3학기의 활동 기간</h2>
+                <p>Plan B 회칙상 Plan B 밴드 회원은 4학기의 의무 활동 기간을 갖습니다. 하지만 여러분은 Plan B의 1기 회원이라는 점과 코로나 상황 속에서 활동한다는 점을 고려하여 3학기의 의무 활동 기간을 가지게 됩니다. 이 3학기의 의무 활동 기간은 연속적입니다.</p>
+                <h2>주 1회 정기 연습 참여</h2>
+                <p>특수한 기간(시험기간 등)을 제외하고 매주 이루어지는 정기 연습에 참여할 수 있어야 합니다. 단, 사회적 거리두기 단계로 인해 인원 제한이 있는 경우 대면 연습 대신 Zoom을 통한 정모로 대체합니다.</p>
+                <h2>학기 및 방학 중 대전 잔류</h2>
+                <p>원활한 회원간 교류를 위하여 의무 활동 기간에는 학기 및 방학 중 기숙사나 자취 등의 방법으로 대전에 잔류하여야 합니다.</p>
+                <h2>회비와 연습실 사용료의 납부</h2>
+                <p>밴드 회원은 학기 당 50,000원의 회비와 월 5,000원의 연습실 사용료가 발생합니다.</p>
+            </div>
+            <div id="band__right">
+                <h2>연습실 장비 우선 사용권</h2>
+                <p>밴드 회원들은 Plan B 소유의 연습실과 장비의 예약에 있어서 우선권을 가집니다.</p>
+                <h2>대표성</h2>
+                <p>밴드 회원들은 Plan B의 이름을 가지고 활동할 수 있습니다. Plan B 회원 간에 대표성(또는 퍼블리시티권) 분쟁이 발생하였을 때 밴드 회원은 이에 있어서 우선권을 가집니다.</p>
+                <h2>활동 종료 후 명예 회원으로의 전환</h2>
+                <p>의무 활동 기간이 종료되면 밴드 회원은 자동으로 명예 회원으로 전환되며, 이는 보장됩니다. 연습실 사용료 월 5,000원만 납부하면 자유롭게 연습실을 사용할 수 있으며 Plan B 일반회원 활동 톡방에서 활동할 수 있습니다.</p>
+                <h2>당연 권리</h2>
+                <p>밴드 회원은 일반 회원이 가지는 모든 권리를 회칙에 명시되어 있지 않더라도 당연하게 가집니다.</p>
+            </div>
+            <div id="general__feature">
+                <h2>Small Sessions, 안전하고 자유로운 음악 활동</h2>
+                <p>Plan B는 어떻게 하면 이 험난한 KAIST의 환경에서 부담과 스트레스 없이, 그리고 코로나 상황에 알맞은 활동을 할 수 있을 지 긴 시간동안 생각했습니다. 그 결과물은 Small Session이라고 부르는 Plan B만의 특색있는 활동 방식에 있습니다. 많아야 서너명이 한 팀이 되어 순간적으로 만났다가 다시 쪼개지죠. 마음 맞는 사람들과, 시간이 맞는 사람들과 노래를 부르고 기타를 치며 시간을 보내다 보면 여러분의 ‘음악적 즐거움’은 가득 채워져 있을지도 모릅니다.</p>
+                <h2>부담 없는 Music Crew</h2>
+                <p>Plan B의 일반 회원들은 회비와 연습실 사용료 이외에 어떠한 의무도 지지 않습니다. 갑자기 바쁜 일이 생겨서 활동을 못하게 되더라도 어떠한 불이익도 주어지지 않습니다! 거기다가 최소한의 활동 점수만 채우면 다음 학기에는 우선 선발의 기회도 주어지죠.</p>
+                <h2>재등록 제도와 정원제 운영</h2>
+                <p>일반 회원들은 정해진 활동 기간이 없습니다. 매 학기마다 등록을 다시 진행하기 때문이죠. 만약 이번 학기만 활동하고 싶다면, 다음 학기에 재등록을 안하기만 하면 됩니다. 또한 총 4개 학기를 활동하게 되면 밴드 회원들과 마찬가지로 명예 회원으로 전환될 기회를 얻습니다. (21 가을학기는 코로나 특수성을 감안해 2개 학기 활동으로 인정)</p>
+                <h2>제약 없는 악기</h2>
+                <p>바이올린, 플룻, 색소폰,... Plan B에서는 어떠한 악기를 다루든 상관 없습니다. 오히려 다양한 악기가 들어올 수록 더욱 자유롭고 폭넓은 음악 세계를 만나볼 수 있을 것이라고 기대하고 있습니다.</p>
+            </div>
+            <div id="general__duty">
+                <h2>회비와 연습실 사용료의 납부</h2>
+                <p>Plan B 일반 회원은 학기 당 15,000원의 회비와 월 5,000원의 연습실 사용료가 발생합니다. 연습실 사용료는 연습실을 사용할 때만 납부하면 됩니다. 행정상 편의를 위해 방학 제외 사용자(4개월분)와 방학 포함 사용자(6개월분)로 나누며, 사용하지 않거나 다른 계획을 가지고 있으신 분들은 총무와의 협의로 조정이 가능합니다.<br><br>
+                저희는 재정적인 문제로 음악 활동을 못하게 되는 분들을 도와드리고 싶습니다. 만약 재정적 부담이 심하신 분들은 회장(muchwater@kaist.ac.kr)에게 별도로 문의주시기 바랍니다.</p>
+                <h2>(선택적 의무) 활동 점수 도달</h2>
+                <p>아래와 같은 기준에 따라 계산된 활동 점수가 [X]점에 도달하면 다음 학기에 우선적으로 재등록됩니다.<br><br>
+                (기준 사항 논의 후 작성 예정)</p>
+            </div>
+            <div id="general__right">
+                <h2>연습실 및 장비 사용권</h2>
+                <p>Plan B 소유의 연습실과 장비를 예약하고 사용할 권리를 가집니다.</p>
+                <h2>Plan B 명칭 사용권</h2>
+                <p>Plan B의 이름을 이용해 다양한 활동을 하고 소속과 경력사항으로 남길 수 있으며, 공식 SNS와 홈페이지에 자신의 작품을 업로드할 권리를 가집니다.</p>
+                <h2>활동 종료 후 명예 회원으로의 전환</h2>
+                <p>총 4개 학기의 활동을 마치면 명예 회원으로 자동 전환됩니다. (단, 2021년 가을학기는 코로나 특수성을 감안해 2개 학기를 활동한 것으로 인정합니다) 연습실 사용료 월 5,000원만 납부하면 자유롭게 연습실을 사용할 수 있으며 Plan B 일반회원 활동 톡방에서 활동할 수 있습니다.</p>
+            </div>
+            <a href="#" target="_blank" id="band__apply">밴드 회원 신청하기</a>
+            <a href="#" target="_blank" id="general__apply">일반 회원 신청하기</a>
+        </section>
     </section>
     <footer class="footer">
         <section class="footer__logo">
             <i class="fab fa-accusoft"></i>
-            <a href="../index.html">PLAN B</a>
+            <a href="../index.html">Plan B</a>
         </section>
         <ul class="footer__list">
             <li>
